@@ -1,0 +1,73 @@
+2026-05-17 13:16:10 [main] INFO  by.bsu.run.Main - Задание 1
+2026-05-17 13:16:10 [main] INFO  by.bsu.run.Main - Задание 2
+2026-05-17 13:16:10 [main] INFO  by.bsu.run.Main - Актер в фильме 'Начало': Actor{id=1, fullName='Леонардо Ди Каприо', birthday=1974-11-11}
+2026-05-17 13:16:10 [main] INFO  by.bsu.run.Main - Актер в фильме 'Начало': Actor{id=3, fullName='Том Харди', birthday=1977-09-15}
+2026-05-17 13:16:10 [main] INFO  by.bsu.run.Main - Задание 3
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Задание 1
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Задание 2
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Актер в фильме 'Начало': Actor{id=1, fullName='Леонардо Ди Каприо', birthday=1974-11-11}
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Актер в фильме 'Начало': Actor{id=3, fullName='Том Харди', birthday=1977-09-15}
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Задание 3
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Актер снялся в >= 2 фильмах: Actor{id=1, fullName='Леонардо Ди Каприо', birthday=1974-11-11}
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Актер снялся в >= 2 фильмах: Actor{id=2, fullName='Брэд Питт', birthday=1963-12-18}
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Задание 4
+2026-05-17 13:22:36 [main] INFO  by.bsu.run.Main - Задание 5
+2026-05-17 13:22:36 [main] INFO  by.bsu.service.CinemaService - Удалено старых фильмов: 5
+2026-05-17 13:51:45 [main] INFO  by.bsu.run.Main - Задание 1
+2026-05-17 13:51:45 [main] INFO  by.bsu.service.CinemaService - Запрос на получение списка недавних фильмов
+2026-05-17 13:51:45 [main] INFO  by.bsu.run.Main - Задание 2
+2026-05-17 13:51:45 [main] INFO  by.bsu.service.CinemaService - Запрос актеров для фильма: Начало
+2026-05-17 13:51:45 [main] INFO  by.bsu.run.Main - Задание 3
+2026-05-17 13:51:45 [main] INFO  by.bsu.service.CinemaService - Запрос актеров, снявшихся минимум в 2 фильмах
+2026-05-17 13:51:45 [main] INFO  by.bsu.run.Main - Задание 4
+2026-05-17 13:51:45 [main] INFO  by.bsu.service.CinemaService - Запрос актеров, являющихся режиссерами
+2026-05-17 13:56:58 [main] INFO  by.bsu.run.Main - Старт демонстрации работы бизнес-логики Видеотеки.
+2026-05-17 13:56:58 [main] ERROR by.bsu.run.Main - Критический сбой на верхнем уровне приложения: The url cannot be null
+java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:596) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at by.bsu.connection.ConnectionFactory.getConnection(ConnectionFactory.java:27) ~[classes/:?]
+	at by.bsu.run.Main.main(Main.java:25) [classes/:?]
+2026-05-17 13:56:58 [main] INFO  by.bsu.run.Main - Работа приложения Видеотеки успешно завершена.
+2026-05-17 14:08:29 [main] INFO  by.bsu.service.CinemaService - Запрос на получение списка недавних фильмов
+2026-05-17 14:08:37 [main] WARN  by.bsu.service.CinemaService - Бизнес-валидация отклонила добавление фильма: Film{id=0, name='', releaseDate=null, country='null'}
+2026-05-17 14:13:43 [main] ERROR by.bsu.run.Main - Критический сбой на верхнем уровне приложения: The url cannot be null
+java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:596) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at by.bsu.connection.ConnectionFactory.getConnection(ConnectionFactory.java:27) ~[classes/:?]
+	at by.bsu.run.Main.main(Main.java:24) [classes/:?]
+2026-05-17 14:13:43 [main] INFO  by.bsu.run.Main - Работа приложения Видеотеки успешно завершена.
+2026-05-17 14:16:45 [main] INFO  by.bsu.connection.ConnectionFactory - Конфигурация базы данных успешно загружена из db.properties.
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main - Метаданные структуры. Загружен режиссер: Кристофер Нолан
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main -  Задание 1 
+2026-05-17 14:16:45 [main] INFO  by.bsu.service.CinemaService - Запрос на получение списка недавних фильмов
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main - Задание 1: Фильмы за текущий и прошлый годы не найдены.
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main -  Задание 2 
+2026-05-17 14:16:45 [main] INFO  by.bsu.service.CinemaService - Запрос актеров для фильма: Начало
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main - Задание 2: Актеры для фильма 'Начало' не найдены в БД.
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main -  Задание 3 
+2026-05-17 14:16:45 [main] INFO  by.bsu.service.CinemaService - Запрос актеров, снявшихся минимум в 2 фильмах
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main - Задание 3: Не найдено актеров, снявшихся как минимум в 2 фильмах.
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main -  Задание 4 
+2026-05-17 14:16:45 [main] INFO  by.bsu.service.CinemaService - Запрос актеров, являющихся режиссерами
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main - Задание 4: Актеры, которые также являются режиссерами, не найдены.
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main -  Задание 5 
+2026-05-17 14:16:45 [main] INFO  by.bsu.service.CinemaService - Запрос на удаление фильмов старше 10 лет
+2026-05-17 14:16:45 [main] INFO  by.bsu.service.CinemaService - Успешно завершено удаление. Количество удаленных кинолент: 0
+2026-05-17 14:16:45 [main] INFO  by.bsu.run.Main - Работа приложения Видеотеки успешно завершена.
+2026-05-31 21:28:17 [main] INFO  by.bsu.connection.ConnectionFactory - Конфигурация базы данных успешно загружена из db.properties.
+2026-05-31 21:28:18 [main] INFO  by.bsu.run.Main -  Задание 5 
+2026-05-31 21:28:18 [main] INFO  by.bsu.service.CinemaService - Запрос на удаление фильмов старше 1 лет
+2026-05-31 21:28:18 [main] INFO  by.bsu.service.CinemaService - Успешно завершено удаление. Количество удаленных кинолент: 5
+2026-05-31 21:28:18 [main] INFO  by.bsu.run.Main - Работа приложения Видеотеки успешно завершена.
+2026-05-31 21:31:33 [main] INFO  by.bsu.connection.ConnectionFactory - Конфигурация базы данных успешно загружена из db.properties.
+2026-05-31 21:31:33 [main] INFO  by.bsu.run.Main -  Задание 5 
+2026-05-31 21:31:33 [main] INFO  by.bsu.service.CinemaService - Запрос на удаление фильмов старше 27 лет
+2026-05-31 21:31:33 [main] INFO  by.bsu.service.CinemaService - Успешно завершено удаление. Количество удаленных кинолент: 1
+2026-05-31 21:31:33 [main] INFO  by.bsu.run.Main - Работа приложения Видеотеки успешно завершена.
+2026-06-01 11:52:49 [main] INFO  by.bsu.connection.ConnectionFactory - Конфигурация базы данных успешно загружена из db.properties.
+2026-06-01 11:52:49 [main] INFO  by.bsu.run.Main -  Задание 5 
+2026-06-01 11:52:49 [main] INFO  by.bsu.service.CinemaService - Запрос на удаление фильмов старше 10 лет
+2026-06-01 11:52:49 [main] INFO  by.bsu.service.CinemaService - Успешно завершено удаление. Количество удаленных кинолент: 4
+2026-06-01 11:52:49 [main] INFO  by.bsu.run.Main - Работа приложения Видеотеки успешно завершена.
